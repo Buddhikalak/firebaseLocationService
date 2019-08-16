@@ -1,0 +1,24 @@
+[2019-08-15T16:48:01.904] [ERROR] locationService - Error: Query.orderByValue failed: Was called with 1 argument. Expects none.
+    at Object.validateArgCount (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/util/dist/index.node.cjs.js:1509:15)
+    at Reference.Query.orderByValue (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/database/dist/index.node.cjs.js:4976:14)
+    at logger.generateLog.then.log (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/Controller/DriverLocationController.js:38:36)
+[2019-08-15T16:48:01.908] [ERROR] locationService - Error: Query.orderByValue failed: Was called with 1 argument. Expects none.
+    at Object.validateArgCount (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/util/dist/index.node.cjs.js:1509:15)
+    at Reference.Query.orderByValue (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/database/dist/index.node.cjs.js:4976:14)
+    at logger.generateLog.then.log (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/Controller/DriverLocationController.js:38:36)
+[2019-08-15T16:59:34.840] [ERROR] locationService - Error: Reference.set failed: First argument contains NaN in property 'drivers.NaN.driverId'
+    at validateFirebaseData (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/database/dist/index.node.cjs.js:1452:15)
+    at /home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/database/dist/index.node.cjs.js:1488:13
+    at Object.forEach (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/util/dist/index.node.cjs.js:845:13)
+    at validateFirebaseData (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/database/dist/index.node.cjs.js:1471:14)
+    at validateFirebaseDataArg (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/database/dist/index.node.cjs.js:1430:5)
+    at Reference.set (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/database/dist/index.node.cjs.js:14027:9)
+    at logger.generateLog.then.log (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/Controller/DriverLocationController.js:237:47)
+[2019-08-15T16:59:34.842] [ERROR] locationService - Error: Reference.set failed: First argument contains NaN in property 'drivers.NaN.driverId'
+    at validateFirebaseData (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/database/dist/index.node.cjs.js:1452:15)
+    at /home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/database/dist/index.node.cjs.js:1488:13
+    at Object.forEach (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/util/dist/index.node.cjs.js:845:13)
+    at validateFirebaseData (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/database/dist/index.node.cjs.js:1471:14)
+    at validateFirebaseDataArg (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/database/dist/index.node.cjs.js:1430:5)
+    at Reference.set (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/node_modules/@firebase/database/dist/index.node.cjs.js:14027:9)
+    at logger.generateLog.then.log (/home/muve/SLTmuve/sltmuve-firebase-location-service-DEV/Controller/DriverLocationController.js:237:47)

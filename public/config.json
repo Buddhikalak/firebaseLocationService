@@ -1,0 +1,11 @@
+{
+    "server_details": {
+        "port": 9445,
+        "log_enable": true,
+        "log_level": "debug"
+    },
+    "location_details": {
+        "radious": 10,
+        "field": "position"
+    }
+}
